@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-weight: 500; */
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+/* Header */
+button{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 0.6rem 2rem;
+}
+nav{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255, 255, 255);
+    padding: 2em;
+    display: flex;
+    box-shadow: 0px 2px 1px rgb(185, 185, 185);
+}
+
+.image-logo{
+    margin-left: 3.5rem;
+    height: 90%;
+}
+.links{
+    margin-left: 1rem;
+    flex: 1;
+    display: flex;
+}
+.links ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.links a{
+    margin-left: 1rem;
+    color: rgb(51, 50, 50);
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.store img{
+    height: 3rem;
+}
+.store-button{
+    background: none;
+}
+.shoping{
+    color: white;
+    margin-right: 4rem;
+    background-color: rgb(10, 119, 10);
+}
+.enter{
+    background: none;
+    border: 1px solid black;
+}
+
+.join{
+    background-color: black;
+    color: white;
+    margin-right: 3rem;
+}
+main{
+    display: flex;
+}
+/* Section Prediction */
+
+.prediction{
+    margin-top: 10rem;
+    flex: 1;
+}
+.prediction-video{
+    margin-top: 0.2rem
+}
+.prediction-video video{
+    position: fixed;
+    width: 40%;
+}
+.prediction-title{
+    position: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    bottom: 8%;
+    left: 3%;
+    font-size: 2.5rem;
+}
+
+
+/* front end scrow piece */
+
+
+.front-page{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(236, 236, 236);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -1px 2px 2px black;
+}
+.front-page h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+
+
+}
+.front-page p{
+    margin-top: 1rem;
+    line-height: 150%;
+    font-size: 1.8rem;
+}
+.first-image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 15rem;
+}
+.first-image img{
+    margin-top: 2rem;
+    width: 90%;
+    margin: auto;
+}
+.first-image-text{
+    margin-top: 4rem;
+    margin-left: 7rem;
+    padding: 1rem;
+    
+}
+
+.first-image-buttons{
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+.yemeksepeti{
+    background-color: rgb(10, 119, 10);
+    color: white;
+}
+.getir{
+    margin-left: 2rem;
+    background-color: none;
+    color: rgb(5, 133, 5);
+    border:1px solid rgb(10, 119, 10);
+}
+
+
+.second, .third, .fourth, .fourth2, .fifth, .sixth, .seventh{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.second-intro, .third-intro, .fourth-intro, .fourth2-intro, .fifth-intro, .sixth-intro, .seventh-intro {
+    margin-left: 2rem;
+}
+.second-buttons, .third-buttons, .fourth-buttons, .fourth2-buttons, .fifth-buttons, .sixth-buttons, .seventh-buttons{
+    margin-top: 2rem;    
+}
+.second-buttons button, .third-buttons button, .fourth2-buttons button, .sixth-buttons button, .seventh-buttons button{
+    background-color: rgb(10, 119, 10);
+    color: white;
+}
+.second-image img, .third-image img, .fourth-image img, .fourth2-image img, .sixth-image img{
+    height: 90%;
+}
+
+.yemek-fourth{
+    background-color: rgb(10, 119, 10);
+    color: white;
+}
+
+.getir-fourth{
+    margin-left: 1rem;
+    border: 1px solid rgb(10, 119, 10);
+    background: none;
+    color: rgb(10, 119, 10);
+}
+
+.fifth-image img{
+    margin-bottom: 3rem;
+    height: 57.5vh;
+}
+.seventh-image img{
+    height: 86%;
+}
+.seventh{
+    padding-bottom: 8rem;
+    margin-bottom: 5rem;
+}
+
+
+
+/* front footer  */
+
+footer{
+    background-color: white;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.1rem;
+    padding: 4rem;
+}
+.menu-title{
+    display: flex;
+    align-items: center;
+}
+.menu-title a{
+    list-style: none;
+    text-decoration: none;
+    line-height: 400%;
+    color: black;
+    margin-left: 4rem;
+    font-weight: 400;
+}
+.menu-items h1{
+    flex: 1;
+}
+.menu-items button{
+    background: none;
+    border-radius: 50%;
+    
+}
+.menu-list{
+    display: none;
+}  /* y en alt kisim olan footer social yapilacak daha sonrasinda javascript kodlarlari yazilacak */
+
+.menu-social-media{
+    padding: 4rem 2rem;
+    margin-left: 3rem;
+}
+.menu-social-media img{
+    margin-left: 1.5rem;
+    height: 4rem;
+}
+
+.menu-social-text {
+    margin-left: 6rem;
+    line-height: 400%;
+    font-weight: 200;
+    font-family: 'Poppins' sans-serif;
+    font-size: 1.5rem;
+    color: rgb(84, 84, 84);
+}
+.social-button{
+    padding: 5rem;
+}
+.social-button button{
+    margin-bottom: 1rem;
+    background: none;
+    border: 1px solid  rgb(10, 119, 10) ;
+    font-weight: 600;
+    color:  rgb(10, 119, 10);
+}
+@media screen and (min-width:1024px) {
+    .burger{
+        display: none;
+    }
+}
+@media screen and (max-width:1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        position: relative;
+        overflow-x: hidden;
+    }
+    .links{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+    nav{
+        display: flex;
+        height: 8%;
+        box-shadow: none;
+    }
+    .logo{
+        flex: 1;
+        position: absolute;
+        left: 0%;
+        top: 25%;
+        align-items: center;
+        height: 140%;
+    }
+    .logo img{
+        margin-bottom: 1rem;
+        height: 40%;
+    }
+    .burger{
+        position: absolute;
+        right: 5%;
+        top: 25%;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .prediction{
+        width: 100%;
+    }
+    .prediction video{
+        position: absolute;
+        width: 100%;
+    }
+    .prediction-title{
+        position: relative;
+        font-size: 1.8rem;
+        margin-top: 95%;
+    }
+
+    .front-page{
+        background-color: rgb(230, 230, 230);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .front-page button{
+        font-size: 1.5rem;
+        width: auto;
+    }
+    .first-image-buttons{
+        display: flex;
+        width: 60%;
+    }
+    .second, .third, .fourth, .fourth2, .fifth, .sixth, .seventh{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .second-image img, .third-image img, .fourth-image img, .fourth2-image img, .fifth-image img, .sixth-image img, .seventh-image img{
+        height: 30%;
+    }
+    .seventh-buttons{
+        padding: 0rem 0rem 20rem 0rem;
+    }
+
+}
+
