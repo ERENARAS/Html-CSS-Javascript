@@ -12,6 +12,7 @@ const size = images[0].clientWidth;
 
 container.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
+// Carousel Event Listener
 next.addEventListener('click', function(){
     container.style.transition = 'transform 0.4s ease-in-out';
     counter++;
@@ -38,6 +39,7 @@ container.addEventListener('transitionend', function(){
     }
 });
 
+// Smooth Scroll
 
 function smoothScroll(target, duraction){
     var target = document.querySelector(target);
@@ -53,6 +55,7 @@ function smoothScroll(target, duraction){
         window.scrollTo(0, run);
         if (timeElepsed < duraction) requestAnimationFrame(animation);
     }
+    // ease function
     function ease(t,b,c,d){ // matematiksel fonksiyon
         t /= d / 2;
         if (t < 1) return c / 2 * t * t + b;
@@ -68,6 +71,7 @@ down.addEventListener('click', function(){
     smoothScroll('.target2', 3000);
 });
 
+// Scroll Effect 
 function scroll(){
     var picture = document.querySelector('.images');
     var picturePosition = picture.getBoundingClientRect().top;
